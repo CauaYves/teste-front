@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import Button from "@mui/material/Button";
 import Input from "@mui/material/Input";
-import { useFileContext } from "@/contexts/fileContext";
+import { useFileContext } from "../../contexts/FileContext";
 
 export default function FileInputComponent() {
   const { files, setFiles } = useFileContext();

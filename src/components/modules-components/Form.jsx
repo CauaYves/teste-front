@@ -12,7 +12,7 @@ import SelectInput from "./SelectInput";
 import BirthInput from "./birthInput";
 import breakpoint from "@/styles/breakpoint";
 import FileInputComponent from "./FileInput";
-import { useFileContext } from "@/contexts/fileContext";
+import { useFileContext } from "../../contexts/FileContext";
 import FileRow from "./fileRow.jsx";
 import colors from "@/constants/colors";
 
